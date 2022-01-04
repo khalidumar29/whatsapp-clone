@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Fira+Code:wght@400;500;700&family=Lobster&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@100;200;400;500;600;700&family=Roboto&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: rgb(18, 140, 126);
+}
+
+nav {
+    display: flex;
+    margin: 0 16%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 50px 0 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.web {
+    display: inline;
+    margin-right: 2px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.arrow {
+    display: inline;
+    margin-left: 2px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.hero-container {
+    display: flex;
+    margin: 0 23%;
+}
+
+.hero-section {
+    padding-top: 56px;
+}
+
+.hero-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.hero-tittle {
+    margin: 20px 0px;
+}
+
+.hero-perah {
+    margin: 40px 0;
+}
+
+.hero-perah p {
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.disable-txt {
+    font-size: 16px;
+    color: #6c6666;
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+    text-align: left;
+}
+
+.download-divission {
+    margin-top: 40px;
+}
+
+.download-list li {
+    list-style: none;
+    margin-top: 15px;
+    color: #1cb3a8;
+}
+
+.download-list li a {
+    text-decoration: none;
+    color: #1cb3a8;
+}
+
+.hero-img {
+    padding-left: 15px;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+footer {
+    background-color: #273443;
+}
+
+.footer-wraper {
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foter-section h3 {
+    padding: 40px 0 10px 0;
+    color: white;
+    text-align: left;
+}
+
+.foter-section ul {
+    padding-bottom: 30px;
+}
+
+.foter-section ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.foter-section ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.copy-right-wraper {
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.copy-right-wraper h4 {
+    margin-right: 7px;
+}
+
+.copy-right {
+    background-color: #1c1e21;
+    color: white;
+}
+
+.media-dection {
+    padding: 25px 0;
+}
+
+.media-section {
+    padding: 30px 0;
+}
+
+.mSection-wraper {
+    margin: 0 5%;
+    display: flex;
+    gap: 25px;
+}
+
+.media-text {
+    padding: 0 20px;
+    background-color: #d8e8ea;
+    width: 100%;
+}
+
+.media-tittle {
+    text-align: center;
+    margin: 61px 0 40px auto;
+    font-size: 26px;
+}
+
+.media-perahgraph {
+    text-align: center;
+    padding: 0 58px;
+}
+
+.media-perahgraph p a {
+    color: #00ffd9;
+    text-decoration: none;
+}
+
+.media-images {
+    padding: 0 80px;
+}
+
+.media-images img {
+    width: 100%;
+    margin-bottom: -7px;
+}
+
+.media-perahgraph p {
+    padding: 12px 0;
+}
+
+.counting {
+    background-color: #e7f0e4;
+    width: 100%;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #77d7c8;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    font-size: 100px;
+    color: #c46f7d;
+}
+
+.counting h1,
+h4,
+p {
+    text-align: center;
+}
+
+.counting h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.counting h4 {
+    color: #5e5e5e;
+    margin-bottom: 10px;
+}
+
+.counting p {
+    padding: 0 80px;
+    text-transform: capitalize;
+}
+
+.button-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 40px 0;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid #00ffd9;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    color: #00ffd9;
+}
+
+.btn:hover {
+    background-color: #00ffd9;
+    color: white;
+    cursor: pointer;
+}
